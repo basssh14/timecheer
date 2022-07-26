@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.centerSom {
+  @apply absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+.centerVertical {
+  @apply top-1/2 transform -translate-y-1/2;
+}
+.centerHorizontal {
+  @apply left-1/2 transform -translate-x-1/2;
+}
+.min-height {
+  min-height: 10px;
+}
+.height10 {
+  height: 10%;
+}
+.landscapeImage {
+  background-image: url("../public/images/landscape.jpeg");
+  background-size: cover;
+  /*background-position: center;*/
+}
+.logoBackground {
+  background-image: url("../public/images/timecher.svg");
+  background-size: 100% 100%;
+  color: black;
+}
+
+.orbitronLetter {
+  font-family: "Orbitron", sans-serif;
+}
+
+.profileImage {
+  background-image: url("../public/images/profile.png");
+  background-size: cover;
+}
+
+.patternBg {
+  background-image: url("../public/images/white-paper-texture.jpeg");
+}
+.successDiv {
+  background-color: rgb(239 68 68);
+}
+.failDiv {
+  background-color: rgb(34 197 94);
+}
